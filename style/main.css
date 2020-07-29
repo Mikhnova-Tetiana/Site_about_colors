@@ -181,7 +181,13 @@ h4 {
 .blue {
   background-color: lightskyblue;
 }
-
+.nav {
+  background-color: palevioletred;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 35px;
+}
 /*Float styles*/
 
 .float {
@@ -339,4 +345,34 @@ h4 {
 .table_cell_tip5 {
   width: 200px;
   display: table-cell;
+}
+
+/*flexbox styles*/
+.header_flex,
+.flex_wrapper4,
+.content1_flex,
+.content2_flex,
+.footer_flex,
+.footer_flex_wrapper,
+.footer_flex_wrapper_1 {
+  display: flex;
+}
+.flex,
+.flex_wrapper2,
+.flex_red,
+.flex_pink,
+.flex_violet,
+.footer_flex_right,
+.footer_flex_wrapper_left,
+.flex_tip3 {
+  width: 400px;
+}
+.flex_wrapper1,
+.flex_wrapper3,
+.footer_flex_left {
+  width: 800px;
+}
+.flex_tip4,
+.flex_tip5 {
+  width: 200px;
 }
