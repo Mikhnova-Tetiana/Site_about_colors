@@ -359,11 +359,11 @@ h4 {
   display: flex;
 }
 .in_flex400 {
-  width: 400px;
+  flex: 0 0 400px;
 }
 .in_flex800 {
-  width: 800px;
+  flex: 0 0 800px;
 }
 .in_flex200 {
-  width: 200px;
+  flex: 0 0 200px;
 }
